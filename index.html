@@ -1,0 +1,155 @@
+--<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>Kidane Hailemichael</h1>
+<img src="best_kidu.png" height="100px" width="200px">
+<hr>
+
+<h2>About me</h2>
+<p>I am an associate degree graduate student in the Department of software programming at the college of Seattle central. I have a diploma of information communication technology  at SMAP, Eritrea. Currently, I’m working at Seattle Goodwill, E-commerce department as an information technology specialist, where I work on maintaining and fixing phones and computers and aside from work, I am also an open-source enthusiast and working on different platforms of programming.</p>
+<h3>Interests </h3>
+<ul>
+    <li>Creating application that runs on mobile phones and computer </li>
+    <li>Computer networking</li>
+    <li>Database programming</li>
+ </ul>
+<h3>Technial skill/programming Language</h3>
+<ul>
+<li>Java</li>
+<li>Python</li>
+<li>Java Script</li>
+<li>HTML & CSS</li>
+</ul>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="pic1.png" alt="Mountains" style="width:100%">
+
+      <h2>Biography</h2>
+      <p> I am Kidane Gidey currently working at Seattle Goodwill in the department of E-commerce.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="pic2.jpg" alt="Lights" style="width:100%">
+
+      <h2>Resume</h2>
+      <ul>
+   <li><a href="">Resume in doc format</a></li>
+   <li><a href="">Resume in pdf format</a></li>
+      </ul>
+      <p>You can download and print my resume in doc or pdf format</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="pic3.jpg" alt="Nature" style="width:100%">
+
+      <h2>Contact information</h2>
+      <ul><li>Tel (206)-554-7814.</li>
+          <li>E-mail KidaneGidey2018@gmail.com</li>
+
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="pic4.jpg" alt="phone1" style="width:100%">
+      <h2>My Work</h2>
+      <p>Developed and executed python projects at Dynamic computer center</p>
+      <p>Participated in all phases of design and implementing network infrastructure in Luwi trainnig center</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<div class="content">
+  <img src="pic10.jpg" alt="programming" style="width:100%">
+  <h3>Case study</h3>
+  <p>I have worked on a multitude of web and java, python, Android programming based projects during my study at seattle central collge.</p>
+  <p>During my information technlogy training I studied linux and networking based projects which I put to good use on every project I work on.</p>
+   <p> one of the project was creating application using Android studio
+   <a href="casestudy.docx">case study</a></p>
+   <p> Git hub link for my project <a href="https://github.com/kidaneh/quizzy">Quizzy</a></p>
+   </p>
+
+</div>
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>
